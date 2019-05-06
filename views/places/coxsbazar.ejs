@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Your Plan</title>
+</head>
+<body>
+	<h1>Book Your Plan</h1>  
+	<a href="/mHome">Back</a> |
+	<a href="/logout">logout</a>
+
+	<form method="post">
+	<table width="300px" >
+		<tr>
+			<td width="35%">Destination</td>
+			<td width="2%">:</td>
+			<td> <select name="dest">
+            <option value="coxsbazar">Coxsbazar</option>
+            <option value="sainmartin">sainmartin</option>
+            <option value="kuwakata">kuakata</option>
+            <option value="sajek">Sajek</option>
+           </select>
+           <br><br></td>
+		</tr>
+		<tr>
+			<td width="35%">Date</td>
+			<td width="2%">:</td>
+			<td><input type="date" name="date"></td>
+		</tr>
+		<tr>
+			<td>quantity of seats</td>
+			<td width="2%">:</td>
+			<td> <input type="number" name="quantity" min="1" max="5"></td>
+		</tr>
+		<tr>
+			<td>Contact Num</td>
+			<td width="2%">:</td>
+			<td>  <input type="tel" name="phone"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td><input type="submit" name="save" value="Save"></td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>
